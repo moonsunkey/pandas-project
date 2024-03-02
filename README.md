@@ -2,11 +2,11 @@
 The Starter codes made this project 50% easier. 
 
 There are quite a few different ways to get to the required results. Looking back, I didn't take enough time to look at the two individual dataframes before diving into the merged dataframe. Sometimes extracting information from one of the originals is easier than from the merged.
-Also over complicated the school_summary part which costed me at least 3 hours.
 
-The assignemt flow shows how to step by step arrive at conclusions about student performance based on per student budget, school size and school type. 
+I have over complicated the school_summary by trying to use the .agg function. It was not successful and the flow of the starter codes made a lot more sense.
 
-The most challenges:
+The other part that I have encountered the most challenges is in binning:
 
-Binning, didn't follow the code and accidentally overwrote the Total Students Column instead of creating School Size column. Didn't fully understand/notice that even after going through the last binning in the assignment that a new column was created.
-In school_summary, initially I didn't use groupby to get the various counts. The display didn't show school name index, instead only the numeric index. This caused issue later on when math functions were performed. 
+I accidentally overwrote the Total Students Column instead of creating School Size column. Didn't fully understand/notice that even after going through the last binning section in the assignment that how a new binning column was created.
+
+The index, data type, what functions/methods could or could not be applied to series or dataframes are still the major obstacles at my current learning stage and it will take quite some time to familiarize these. Assignment like this definitely helped putting major learning to practice.
